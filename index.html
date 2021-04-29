@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/utilities.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>HIT | Hogeschool Informatica Technologie</title>
+</head>
+<body>
+    <!-- Navbar -->
+    <div class="navbar">
+        <div class="container flex">
+            <h1 class="logo">HIT.</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="studenten.html">Studenten</a></li>
+                    <li><a href="praktische info.html">Praktische info</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    
+    <!-- Slideshow container -->
+    <div class="slideshow-container">
+
+        <!-- Full-width images with number and caption text -->
+        <div class="mySlides fade">
+        <img src="images/slideshow1.jpg" style="width:100%">
+        </div>
+    
+        <div class="mySlides fade">
+        <img src="images/slideshow2.jpg" style="width:100%">
+        </div>
+    
+        <div class="mySlides fade">
+        <img src="images/slideshow3.jpg" style="width:100%">
+        </div>
+    </div>
+    <br>
+
+    <!-- Showcase -->
+    <section class="showcase">
+        <div class="container grid">
+            <div class="showcase-text">
+                <h1>Alvast een plaats bemachtigen?</h1>
+                <p>Wil je er zeker zijn dat je een stoel hebt volgend schooljaar? Vul dan het formulier hierlangs in om alvast een plaats achter onze schoolbanken te reserveren.</p>
+                <p>Nog niet helemaal overtuigd? Klik dan hieronder om meer te weten te komen over het schoolleven op HIT.</p>
+                <a href="praktische info.html" class="btn btn-outline">Meer lezen</a>
+            </div>
+
+            <div class="showcase-form card">
+                <h2>Voorinschrijven</h2>
+                 <!--  <form name="contact" netlify-honeypot="bot-field" method="POST" data-netlify="true">
+                    <input type="hidden" name="form-name" value="contact">
+                    <p class="hidden">
+                        <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
+                      </p>
+                    <div class="form-control">
+                        <input type="text" name="name" placeholder="Name" required>
+                    </div>
+                    <div class="form-control">
+                        <input type="text" name="company" placeholder="Company Name" required>
+                    </div>
+                    <div class="form-control">
+                        <input type="email" name="email" placeholder="Email" required>
+                    </div>
+                    <input type="submit" value="Send" class="btn btn-primary">
+                </form> -->
+                 <form>
+                    <div class="form-control">
+                        <input type="text" name="name" placeholder="Naam" required>
+                    </div>
+                    <div class="form-control">
+                        <input type="text" name="phone" placeholder="Tel" required>
+                    </div>
+                    <div class="form-control">
+                        <input type="email" name="email" placeholder="Email" required>
+                    </div>
+                    <input type="submit" value="Verzenden" class="btn btn-primary">
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats -->
+    <section class="stats">
+        <div class="container">
+            <h3 class="stats-heading text-center my-1">
+                De kwaliteit van een onderwijsinstantie is slechts een reflectie van de resultaten van zijn studenten. Daarom delen we met trots mee dat we afgelopen jaar...
+            </h3>
+
+            <div class="grid grid-3 text-center my-4">
+                <div>
+                    <i class="fas fa-server fa-3x"></i>
+                    <h3>917</h3>
+                    <p class="text-secondary">geslaagde studenten hebben in onze databank.</p>
+                </div>
+                <div>
+                    <i class="fas fa-upload fa-3x"></i>
+                    <h3>2 TB</h3>
+                    <p class="text-secondary">aan research papers hebben gepubliceerd.
+                    </p>
+                </div>
+                <div>
+                    <i class="fas fa-project-diagram fa-3x"></i>
+                    <h3>91</h3>
+                    <p class="text-secondary">projecten succesvol hebben afgerond in samenwerking met studenten.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Cloud -->
+    <section class="cloud bg-primary my-2 py-2">
+        <div class="container grid">
+            <div class="text-center">
+                <h2 class="lg">Een krachtige omgeving voor krachtige studenten</h2>
+                <p class="lead my-1">Voor projecten en onderzoek bieden we krachtige systemen aan zodat de enige limiet de ambitie van onze studenten is.</p>
+                <a href="praktische info leeromgeving.html" class="btn btn-outline">Meer over onze leeromgeving</a>
+            </div>
+            <img src="images/cloud.png" alt="">
+        </div>
+    </section>
+
+    <!-- Languages -->
+    <section class="languages">
+        <h2 class="md text-center my-2">
+            Wat kan je bij ons verwachten?
+        </h2>
+        <div class="container flex">
+            <div class="card">
+                <h4>Networks</h4>
+                <a href="praktisch info snb.html"><img src="images/logos/cisco.png" alt=""></a>
+            </div>
+            <div class="card">
+                <h4>A.I.</h4>
+                <a href="praktische info ai.html"><img src="images/logos/ai.png" alt=""></a>
+              </div>
+              <div class="card">
+                <h4>Full stack</h4>
+                <a href="praktische info programmeren.html"><img src="images/logos/csharp.png" alt=""></a>
+              </div>
+              <div class="card">
+                <h4>Frontend</h4>
+                <a href="praktische info front end.html"><img src="images/logos/front end.png" alt=""></a>
+              </div>
+              <div class="card">
+                <h4>Backend</h4>
+                <a href="praktische info back end.html"><img src="images/logos/backend.png" alt=""></a>
+              </div>
+              <div class="card">
+                <h4>IoT</h4>
+                <a href="praktische info iot.html"><img src="images/logos/iot.png" alt=""></a>
+              </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer bg-dark py-5">
+        <div class="container grid grid-3">
+            <div>
+                <h1>HIT
+                </h1>
+                <p>Copyright &copy; 2021</p>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="studenten.html">Studenten</a></li>
+                    <li><a href="praktische info.html">Praktische info</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="social">
+                <a href="#"><i class="fab fa-github fa-2x"></i></a>
+                <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
+                <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
+                <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+            </div>
+        </div>
+    </footer>
+    <script type="text/javascript" src="js/slideshow.js"></script>
+</body>
+</html>
